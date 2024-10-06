@@ -1,5 +1,4 @@
-# In single inheritence only one parent and child class
-
+# In single inheritence only one parent and child class 
 class Organization:
     def __init__(self, oname, olocation):
         self.oname = oname
@@ -20,7 +19,7 @@ class Employee(Organization):
         return f"{self.ename} - {self.ephone} - {self.salary} - "
 
 
-#User input class property values
+# User input class property values
 # Get user input for employee details
 ename = input("Enter employee name: ")
 ephone = input("Enter employee phone: ")
@@ -30,4 +29,4 @@ olocation = input("Enter organization location: ")
 
 # Create object for Employee class
 classInfo = Employee(ename, ephone, salary, oname, olocation)
-print(classInfo.display() , classInfo.organization() )
+print(classInfo.display() , classInfo.organization())

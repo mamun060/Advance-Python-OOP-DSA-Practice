@@ -1,6 +1,4 @@
 # Encapsulations
-
-
 class BankAccount:
     def __init__(self, name , account , balance, phone):
         self.name = name # public acccessed specifier
@@ -17,9 +15,9 @@ class BankAccount:
 accountBalance = BankAccount("Mamun" , "12122454545" , 10000 , +8801953103206)
 print(accountBalance.get_balance())
 
-
 # let check accessed specifier - name is public 
 print(accountBalance.name) 
 
 # protector not access from here 
 print(accountBalance._account)
+

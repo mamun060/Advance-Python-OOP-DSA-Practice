@@ -10,4 +10,4 @@ size = len(full_name)
 
 # substring
 nickname = full_name[5:8]
-print(size, nickname)
+print(size, nickname) 

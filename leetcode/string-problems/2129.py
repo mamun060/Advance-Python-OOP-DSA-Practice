@@ -6,14 +6,15 @@ class Solution:
         :type title: str
         :rtype: str
         """
-        words = title.split()
-        result = [words[0].capitalize()]
-        for word in words[1:]:
-            if word.lower() in ['and', 'the', 'of', 'in']:
-                result.append(word.lower())
-            else:
-                result.append(word.capitalize())
-        return ' '.join(result)
+        output = list()
+        word_arr = title.split()
+        for word in word_arr:
+                output.append(word.title()) if len(word) > 2 else output.append(word.lower())
+        return " ".join(output)
 
-title = "First leTTeR of EACH Word"
-print(Solution().capitalize(title)) 
+Solution = Solution()
+
+# Test Cases
+print(Solution.capitalize("i lOve leetcode"))
+print(Solution.capitalize("capiTalIze tHe titLe"))
+print(Solution.capitalize("First leTTeR of EACH Word"))

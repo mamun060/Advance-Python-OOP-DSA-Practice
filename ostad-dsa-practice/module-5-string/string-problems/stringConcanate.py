@@ -4,3 +4,4 @@ def stringConcatenation(A: str, B: str)-> str:
 strOne = input().strip()
 strTwo = input().strip()
 print(stringConcatenation(strOne, strTwo)) 
+

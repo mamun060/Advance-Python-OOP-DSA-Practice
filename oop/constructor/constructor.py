@@ -1,3 +1,4 @@
+# parameterize constructor
 class Student:
     def __init__(self, name, roll, reg):
         self.name = name

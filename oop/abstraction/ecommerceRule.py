@@ -18,10 +18,10 @@ class BkashGateway(PaymentGateway):
         return (f"Processing payment of ${amount} through Bkash.")
 
 
-def checkout(payment_gateway: PaymentGateway, amount: float):
+def _check_checkout(payment_gateway: PaymentGateway, amount: float):
     result = payment_gateway.pay(amount)
     print(result) 
 
-checkout(StripeGateway(), 100.0)
-checkout(PayPalGateway(), 200.0)
-checkout(BkashGateway(), 300.0)
+_check_checkout(StripeGateway(), 100.0)
+_check_checkout(PayPalGateway(), 200.0)
+_check_checkout(BkashGateway(), 300.0)

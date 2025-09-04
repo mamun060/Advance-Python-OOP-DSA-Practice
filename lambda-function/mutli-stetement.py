@@ -5,4 +5,4 @@ print(list(sort_list(my_List)))
 # Getting the third largest number of the sublist    
 third_Largest = lambda num, func : [ l[ len(l) - 3] for l in func(num)]    
 result = third_Largest( my_List, sort_list)      
-print('The third largest number from every sub list is:', result )    
+print('The third largest number from every sub list is:', result )

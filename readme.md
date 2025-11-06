@@ -6,17 +6,17 @@ This repository is a collection of Python programs, code snippets, and notes to 
 
 ## 📘 Topics Covered
 
-### ✅ Python Basics
+### Python Basics
 - Variables, data types, control flow
 - Functions and loops
 - File handling
 
-### ✅ Object-Oriented Programming (OOP)
+### Object-Oriented Programming (OOP)
 - Classes and Objects
 - Encapsulation, Inheritance, Abstraction, Polymorphism
 - Practical examples and code
 
-### ✅ Algorithms
+### Algorithms
 - **Backtracking**  
   - N-Queens, Sudoku Solver, Subset Sum
 - **Greedy Algorithms**  
@@ -24,15 +24,14 @@ This repository is a collection of Python programs, code snippets, and notes to 
 - **Brute Force vs Optimized**
   - Comparisons, limitations, and performance notes
 
-### ✅ Data Structures
+### Data Structures
 - Arrays and Lists
 - Stacks and Queues
 - Trees (Binary Tree, BST, etc.)
 - HashMaps and Sets
 
-### ✅ Problem Solving
+### Problem Solving
 - Recursion & memoization
 - Practice exercises with explanations
 - MCQ-style quiz questions with correct answers and reasoning
-
 ---

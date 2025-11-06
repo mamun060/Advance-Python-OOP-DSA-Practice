@@ -1,0 +1,40 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Virtual environment
+
+venv/
+.env/
+.env.bak/
+
+# IDE & OS
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Byte-compiled / optimized / DLL files
+
+*.so
+*.dll
+*.dylib
+
+# Test & build
+
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Misc
+
+*.sqlite3
+*.db
+*.bak

@@ -35,3 +35,42 @@ This repository is a collection of Python programs, code snippets, and notes to 
 - Practice exercises with explanations
 - MCQ-style quiz questions with correct answers and reasoning
 ---
+
+### 1. Problem Solving on Array 
+●  Array Basics and Common Operations 
+●  Two-Pointer Techniques 
+●  Sliding Window Approach 
+●  Sorting and Searching in Arrays 
+●  Array Partitioning 
+●  Handling Duplicates in Arrays 
+●  Dynamic Array Problems 
+●  Advanced Array Manipulation 
+
+### 2.  Problem solving on String 
+●  String Manipulation 
+●  String Matching Algorithms 
+●  Palindrome Detection 
+●  Anagram Detection 
+●  Substring Search 
+●  Longest Common Substring 
+●  Longest Common Prefix 
+●  Regular Expressions 
+●  String Compression 
+●  String Rotation 
+●  Character Frequency Counting 
+●  String Reversal 
+●  Pattern Matching 
+●  Edit Distance Calculation 
+
+### 3. Problem solving on Recursion 
+●  Introduction to Recursion 
+●  Base Case and Recursive Case 
+●  Recursive Problem Solving Strategies 
+●  Factorial Calculation 
+●  Fibonacci Sequence 
+●  Tower of Hanoi 
+●  Permutations and Combinations 
+●  Depth-First Search (DFS) 
+●  Backtracking Algorithms 
+●  Recursive Tree Traversal 
+●  Divide and Conquer Techniques 
